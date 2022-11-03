@@ -12,9 +12,9 @@ import os
 # general settings
 WORKERS: "int" = int(os.getenv("WORKERS", 100))
 PYRO_WORKERS: "int" = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: "int" = int(os.getenv("APP_ID", 111))
-APP_HASH = os.getenv("APP_HASH", "111")
-TOKEN = os.getenv("TOKEN", "3703WLI")
+APP_ID: "int" = int(os.getenv("APP_ID", 24518966))
+APP_HASH = os.getenv("APP_HASH", "a4c69a73e69f82577778ccc2aaf1c9c4")
+TOKEN = os.getenv("TOKEN", "5331589042:AAHQXjGj4YeO9a0_pZ05YfYsrMfCI7N84H4")
 
 REDIS = os.getenv("REDIS")
 
@@ -30,7 +30,7 @@ EX = os.getenv("EX", 24 * 3600)
 MULTIPLY = os.getenv("MULTIPLY", 5)  # VIP1 is 5*5-25G, VIP2 is 50G
 USD2CNY = os.getenv("USD2CNY", 6)  # $5 --> ¥30
 
-ENABLE_VIP = os.getenv("VIP", False)
+ENABLE_VIP = os.getenv("VIP", True)
 MAX_DURATION = int(os.getenv("MAX_DURATION", 60))
 AFD_LINK = os.getenv("AFD_LINK", "https://afdian.net/@BennyThink")
 COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com/bennythink")
